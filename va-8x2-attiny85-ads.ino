@@ -20,7 +20,7 @@ for made a dual thermometer & battery status for car with ATtiny85 as Arduino..
  */
 #include <TinyWireM.h> //https://github.com/adafruit/TinyWireM
 #include <LiquidCrystal595.h>    // include the library
-LiquidCrystal595 lcd(3,1,4);     // datapin, latchpin, clockpin pb0, pb1, pb2
+LiquidCrystal595 lcd(3,1,4);     // datapin, latchpin, clockpin pb3, pb1,pb4
 #include <Adafruit_ADS1015.h>  //https://github.com/adafruit/Adafruit_ADS1X15
 
 Adafruit_ADS1115 ads(0x48);
